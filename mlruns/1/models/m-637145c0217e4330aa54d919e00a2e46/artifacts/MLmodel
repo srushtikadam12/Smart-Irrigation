@@ -1,0 +1,32 @@
+artifact_path: /home/claude/smart_irrigation/mlruns/1/models/m-637145c0217e4330aa54d919e00a2e46/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.17.2
+model_id: m-637145c0217e4330aa54d919e00a2e46
+model_size_bytes: 1650603
+model_uuid: m-637145c0217e4330aa54d919e00a2e46
+prompts: null
+run_id: c74eccf607654d3ea6bad458e03acc0b
+signature:
+  inputs: '[{"type": "double", "name": "soil_moisture", "required": true}, {"type":
+    "double", "name": "temperature", "required": true}, {"type": "double", "name":
+    "humidity", "required": true}, {"type": "double", "name": "light", "required":
+    true}, {"type": "double", "name": "rainfall_24h", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-29 11:17:55.191422'

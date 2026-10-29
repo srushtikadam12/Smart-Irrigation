@@ -1,0 +1,8 @@
+mlflow
+fastapi
+uvicorn
+streamlit
+streamlit-autorefresh
+scikit-learn
+pandas
+requests
